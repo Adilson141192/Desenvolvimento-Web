@@ -1,0 +1,49 @@
+#imgCab {
+    width: 100%;
+    height: 40vh;
+}
+
+.inicio {
+    background: #628ca4;
+    padding: 20px;
+}
+
+.vantagens {
+    background: #ffffff;
+    padding: 20px;
+}
+
+h1 {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+em strong {
+    color: #2016ae;
+}
+
+#qualidade {
+    font-size: 20px;
+}
+
+.itens {
+    font-style: italic;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+#imgtecnico {
+    width: 50%;
+}
