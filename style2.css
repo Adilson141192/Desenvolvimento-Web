@@ -1,0 +1,57 @@
+header {
+    background-color: #628ca4;
+    padding: 20px 0;
+}
+
+.menu {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 150px;
+    right: 0;
+}
+
+#navlogo {
+    width: 30%;
+    height: 30%;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.desc {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.desc li {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    vertical-align: top;
+}
+
+.desc h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.desc img {
+    width: 30%;
+    height: 30%;
+}
