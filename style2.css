@@ -42,16 +42,43 @@ nav a {
 .desc li {
     display: inline-block;
     text-align: center;
-    width: 33%;
+    width: 30%;
     vertical-align: top;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 0 1%;
 }
 
 .desc h2 {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
 }
 
 .desc img {
     width: 30%;
     height: 30%;
+}
+
+nav a:hover {
+    color: #3319c7;
+    text-decoration: underline;
+}
+
+.desc li:hover {
+    color: #3319c7;
+    border-color: #3319c7;
+}
+
+.desc li:hover h2 {
+    font-size: 36px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background: url(imagens/img1.png);
+    padding: 60px 0;
 }
