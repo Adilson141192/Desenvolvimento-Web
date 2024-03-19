@@ -3,6 +3,11 @@ header {
     padding: 20px 0;
 }
 
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
 .menu {
     position: relative;
     width: 940px;
@@ -81,4 +86,52 @@ footer {
     font-weight: bold;
     background: url(imagens/img1.png);
     padding: 60px 0;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 30%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: #628ca4;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding:  8px 15px;
 }

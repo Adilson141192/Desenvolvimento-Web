@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Serviços de Informática</title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="menu">
+                <h1><img id="navlogo" src="imagens/img3.jpg" alt=""></h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="contato.html">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <form action="">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" required>
+
+                <label for="email">E-mail</label>
+                <input type="text" id="email" required placeholder="seuemail@dominio.com">
+
+                <label for="cel">Celular</label>
+                <input type="text" id="cel" required placeholder="(XX)9XXXX-XXXX">
+
+                <label for="msn">Mensagem</label>
+                <textarea name="" id="msn" cols="70" rows="10"></textarea>
+
+                <div>
+                    <p>Forma de contato preferencial:</p>
+                    <label for="radio-email">
+                        <input type="radio" id="radio-email" value="email" name="contato">E-mail.
+                    </label>
+                    <label for="radio-cel">
+                        <input type="radio" id="radio-cel" value="cel" name="contato">Telefone.
+                    </label>
+                    <label for="radio-wpp">
+                        <input type="radio" id="radio-wpp" value="wpp" name="contato">Whatsapp.
+                    </label>
+                </div>
+
+                <div>
+                    <p>Qual dia gostaria de ser atendido?</p>
+                    <select name="" id="">
+                        <option value="">Segunda-feira</option>
+                        <option value="">Terça-feira</option>
+                        <option value="">Quarta-feira</option>
+                        <option value="">Quinta-feira</option>
+                        <option value="">Sexta-feira</option>
+                    </select>
+                </div>
+
+                <label for="" class="checkbox">
+                    <input type="checkbox" checked> Gostaria de receber as nossas novidade por e-mail?
+                </label>
+
+                <input type="submit" class="enviar" value="Enviar">
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horário</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda-feira</td>
+                        <td>8h - 18h</td>
+                    </tr>
+                    <tr>
+                        <td>Terça-feira</td>
+                        <td>8h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Quarta-feira</td>
+                        <td>8h - 18h</td>
+                    </tr>
+                    <tr>
+                        <td>Quinta-feira</td>
+                        <td>8h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta-feira</td>
+                        <td>8h - 18h</td>
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>8h - 12h</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </main>
+        <footer>
+            <p>&copy; Copyright - Adilson Junior - Técnico em Informática - 2024.</p>
+        </footer>
+    </body>
+</html>
